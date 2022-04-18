@@ -8,7 +8,7 @@ a=`expr $x + $y`
 echo $a
 elif [ $op == 2 ]
 then
-b=`expr $a - $b`
+b=`expr $x - $y`
 echo $b
 elif [ $op == 3 ]
 then
