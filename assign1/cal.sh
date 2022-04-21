@@ -1,7 +1,4 @@
 #!/bin/bash
-$x 
-$y
-$op
 if [ $op == 1 ]
 then
 a=`expr $x + $y`
