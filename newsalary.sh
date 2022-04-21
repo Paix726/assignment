@@ -1,6 +1,4 @@
 #!bin/bash/
-echo "enter the current amount:"
-$curr_amt
 da=$(expr 34 \* $curr_amt / 100)
 da=$da
 hra=`expr $curr_amt \* 24 / 100`
